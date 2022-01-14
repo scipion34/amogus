@@ -15,8 +15,8 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/xterm/3.14.5/xterm.min.js
 // @require      https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js
 // @require      https://code.jquery.com/ui/1.12.1/jquery-ui.min.js
-// @require      https://raw.githubusercontent.com/scipion34/amogus/sus util.js
-// @require      https://raw.githubusercontent.com/scipion34/amogus/sus_ws.js
+// @require      https://raw.githubusercontent.com/scipion34/amogus/main/util.js
+// @require      https://raw.githubusercontent.com/scipion34/amogus/main/sus_ws.js
 // @run-at       document-start
 // @grant        none
 // ==/UserScript==
@@ -776,7 +776,7 @@ function createConsoleWindow() {
   };
   scope.help = Object.getOwnPropertyNames(scope);
   var _extensions = undefined
-  fetch('https://raw.githubusercontent.com/bababoyisntapopularname/bababot/main/extensions.json').then(x => x.json()).then(x => {
+  fetch('https://raw.githubusercontent.com/scipion34/amogus/main/extensions.json').then(x => x.json()).then(x => {
     _extensions = x
   })
   var load = function(name) {
