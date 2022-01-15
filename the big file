@@ -536,23 +536,7 @@ function drawImage(coords, image) {
   };
   /* EXPERIMENTAL USE ONLY (DELETION STARTS FROM THIS LINE)
             THIS SCRIPT CAN CAUSE UNEXPECTED BEHAVIOUR WHEN YOU BOT SOME PLACE WITH DIFFERENT IMAGES
-            DO NOT DELETE IF YOU DONT KNOW WHAT YOURE DOING (DELETION ENDS IN THIS LINE)
-            BababotWS.BBY_on('p',function(content) {
-                    for (let colorPacket of content) {
-                        let x = colorPacket[0]
-                        let y = colorPacket[1]
-                        let color = colorPacket[2]
-                        if (coords[0] > x && x > coords[0] + image[0].length
-                            && coords[1] > y && y > coords[1]+image.length) {
-                            let pixel = image[x-coords[0]][y-coords[1]]
-                            let oldcolor = pixel.charCodeAt(0) - '0'.charCodeAt(0)
-                            if (color != oldcolor) {
-                                Tasker.addTask({x: x,y: y,color: oldcolor})
-                            }
-                        }
-                    }
-            })
-            (DELETE THIS LINE)*/
+            DO NOT DELETE IF YOU DONT KNOW WHAT YOURE DOING (DELETION ENDS IN THIS LINE)*/
 }
 Menu.start.on("click", function () {
   if (Menu.pixif == undefined) {
